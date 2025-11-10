@@ -1,0 +1,39 @@
+.big-div {
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+body {
+    background-color: chocolate;
+}
+.txt {
+    color: #1877f2;
+}
+.txt1 {
+    color: #1877f2;
+    font-size: 30px;
+}
+.rotating {
+    width: 40px;
+    transform: rotate(0deg);
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.texx {
+    color: #1877f2;
+}
+.button {
+    background-color: #1877f2;
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
+}
+.log {
+    color: black;
+    font-size: 20px;
+}
